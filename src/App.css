@@ -1,38 +1,175 @@
-.App {
+.image-conversion-container {
   text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image-conversion-container h1 {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image-conversion-container input[type="file"] {
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.image-conversion-container .format-selector {
+  margin: 20px 0;
+}
+
+.image-conversion-container button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
   color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
-.App-link {
+.image-conversion-container button:hover {
+  background-color: #45a049;
+}
+
+.image-preview {
+  margin-top: 20px;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-preview p {
+  margin: 5px 0;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
   color: #61dafb;
 }
+/* ImageToDocument.css */
+.image-to-document-container {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image-to-document-container h1 {
+  margin-bottom: 20px;
+}
+
+.image-to-document-container input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.image-to-document-container .format-selector {
+  margin: 20px 0;
+}
+
+.image-to-document-container button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.image-to-document-container button:hover {
+  background-color: #45a049;
+}
+
+.image-preview {
+  margin-top: 20px;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+/* VideoConversion.css */
+.video-conversion-container {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.video-conversion-container h1 {
+  margin-bottom: 20px;
+}
+
+.video-conversion-container input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.video-conversion-container .file-info {
+  margin-bottom: 20px;
+}
+
+.video-conversion-container button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.video-conversion-container button:hover {
+  background-color: #45a049;
+}
+
+.video-conversion-container .error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.video-conversion-container .converted-file {
+  margin-top: 20px;
+}
+
+.video-conversion-container .converted-file video {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
